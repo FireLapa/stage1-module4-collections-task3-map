@@ -7,8 +7,6 @@ public class KeyValueSwapper {
     public Map<String, Integer> swap(Map<Integer, String> sourceMap) {
         Map<String, Integer> swappedMap = new HashMap<>();
 
-        System.out.println(sourceMap);
-
         for (Map.Entry<Integer, String> entry : sourceMap.entrySet()) {
             String value = entry.getValue();
             int key = entry.getKey();
